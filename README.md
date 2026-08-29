@@ -1,9 +1,6 @@
-# web-development-learning
-Absolutely. Since this repository contains your **HTML practice/learning files**, the README should be simple and student-like—not overly professional or stuffed with things you haven't learned yet.
 
-Replace the contents of your `README.md` with this:
 
-```markdown
+
 # 🌐 Web Development Learning
 
 This repository contains my HTML practice files and small web development projects that I am creating while learning the basics of web development.
@@ -43,6 +40,6 @@ I am currently learning programming and web development and building small proje
 ---
 
 ⭐ This repository will be updated as I learn more about web development.
-```
+
 
 
