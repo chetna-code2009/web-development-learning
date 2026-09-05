@@ -1,6 +1,3 @@
-
-
-
 # 🌐 Web Development Learning
 
 This repository contains my HTML practice files and small web development projects that I am creating while learning the basics of web development.
@@ -8,7 +5,9 @@ This repository contains my HTML practice files and small web development projec
 ## 📁 Files in this Repository
 
 ### 1. `introduction.HTML`
+
 A simple personal introduction webpage containing:
+
 - My name
 - Where I live
 - My BCA course
@@ -16,10 +15,23 @@ A simple personal introduction webpage containing:
 - What I am currently learning
 
 ### 2. `communication.html`
+
 A webpage about **Communication**, including:
+
 - Introduction to communication
 - Rules of communication
 - Importance of effective communication
+
+### 3. `krishna.html`
+
+An informational webpage about the **Hare Krishna Mahamantra**, including:
+
+- Introduction to the Mahamantra
+- The Mahamantra
+- Why it is chanted
+- Information about Japa and Kirtan
+- A link to the official ISKCON website
+- An image of Lord Krishna
 
 ## 🛠️ Technologies Used
 
@@ -40,6 +52,3 @@ I am currently learning programming and web development and building small proje
 ---
 
 ⭐ This repository will be updated as I learn more about web development.
-
-
-
