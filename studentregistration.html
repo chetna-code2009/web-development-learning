@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Registration Form</title>
+
+    <style>
+
+        body {
+            background-color: lightblue;
+            text-align: center;
+        }
+
+        h1 {
+            color: darkblue;
+            background-color: lightyellow;
+        }
+
+        h2 {
+            color: darkgreen;
+        }
+
+        p {
+            color: black;
+            font-size: 18px;
+        }
+
+        form {
+            background-color: white;
+            border: 2px solid black;
+            padding: 20px;
+        }
+
+        table {
+            border: 2px solid black;
+            padding: 10px;
+            margin: auto;
+        }
+
+        th {
+            background-color: darkblue;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            background-color: lightyellow;
+            padding: 10px;
+        }
+
+        input {
+            padding: 5px;
+        }
+
+        select {
+            padding: 5px;
+        }
+
+        textarea {
+            padding: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: green;
+            color: white;
+            padding: 10px;
+        }
+
+        input[type="reset"] {
+            background-color: red;
+            color: white;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <p>
+        Welcome to the Student Registration Page.
+        Please enter your details in the form below.
+    </p>
+
+    <form>
+
+        <table>
+
+            <tr>
+                <th colspan="2">Student Details</th>
+            </tr>
+
+            <tr>
+                <td>Name</td>
+                <td>
+                    <input type="text" name="name">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Age</td>
+                <td>
+                    <input type="number" name="age">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                </td>
+            </tr>
+
+            <tr>
+                <td>Course</td>
+                <td>
+                    <select name="course">
+                        <option>BCA</option>
+                        <option>B.Tech</option>
+                        <option>BBA</option>
+                        <option>MCA</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Subjects</td>
+                <td>
+                    <input type="checkbox" name="subject"> C Programming
+                    <br>
+                    <input type="checkbox" name="subject"> Web Development
+                    <br>
+                    <input type="checkbox" name="subject"> Computer Fundamentals
+                    <br>
+                    <input type="checkbox" name="subject"> Mathematics
+                </td>
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="email" name="email">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Address</td>
+                <td>
+                    <textarea rows="4" cols="25"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+    <h2>Available Courses</h2>
+
+    <table>
+
+        <tr>
+            <th>Course</th>
+            <th>Duration</th>
+        </tr>
+
+        <tr>
+            <td>BCA</td>
+            <td>3 Years</td>
+        </tr>
+
+        <tr>
+            <td>B.Tech</td>
+            <td>4 Years</td>
+        </tr>
+
+        <tr>
+            <td>BBA</td>
+            <td>3 Years</td>
+        </tr>
+
+    </table>
+
+    <h2>Useful Link</h2>
+
+    <a href="https://www.google.com">Visit Google</a>
+
+</body>
+
+</html>
